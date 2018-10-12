@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    height: 100vh;
+    
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    background-image: url(../../Img/disney\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.st{
+position: absolute;
+font-size: 100px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(243, 9, 9);
+font-family: Brush Script Std, cursive;
+display: flex;
+margin-left: 37%;
+margin-top: 15%;
+}
+.st:hover{
+    transform: scale(1.2);
+}

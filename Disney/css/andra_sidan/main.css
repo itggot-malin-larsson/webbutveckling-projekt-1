@@ -1,0 +1,109 @@
+body{
+    margin: 5px;
+    background-color: black;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 5fr 5fr 1fr;
+    grid-template-rows: 70px 40px 100px auto 50px;
+    grid-gap: 2%;
+}
+
+.sidor1{
+    display:grid;
+    background-image: url("../../Img/mm3.jpg");
+    grid-column: span 1;
+    grid-row: span 4;
+    margin-left: 20%;
+    
+}
+
+
+.header{
+    background-color: red;
+    grid-column: span 5;
+    grid-row: span 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Brush Script Std, cursive;
+    font-size: 300%;
+    
+}
+
+.sidor2{
+    background-image: url("../../Img/mm3.jpg");
+    grid-column: span 1;
+    grid-row: span 4;
+    margin-right: 20%
+}
+.nav{
+    background-color: yellow;
+    grid-column: 2/5;
+    grid-row: span 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    font-family: Brush Script Std, cursive;
+    font-size: 30px;
+}
+
+.list{
+    background-color: white;
+    grid-column: 2/3;
+    grid-row: span 1;
+    margin-right: -15%;
+    font-size: 20px;
+}
+
+.musse{
+    grid-column: 3/3;
+    grid-row: span 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar{
+    display: grid;
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url("../../Img/Nalle\ Puh.jpg");
+    display: flex;
+    justify-content: center;
+    height: 222px;
+}
+
+.maincontent{
+    background-color: steelblue;
+    grid-column: 2/4;
+    grid-row: span 2;
+    padding: 3%;
+}
+
+.gif{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-image: url("../../Img/mmbåt3.gif");
+    margin-top: 130px;
+    
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:red;
+}
