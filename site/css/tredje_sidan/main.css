@@ -7,8 +7,8 @@ body{
     height: 100vh;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 4,3fr 4,3fr 4,3fr 1fr;
-    grid-template-rows: 70px 40px 1fr 2fr 2fr 2fr 2fr ;
+    grid-template-columns: 1fr 4fr 4fr 4fr 1fr;
+    grid-template-rows: 70px 40px 1fr 2fr 2fr ;
     grid-gap: 2%
 }
 
@@ -17,7 +17,7 @@ display: grid;
 background-repeat: repeat-y;
 background-image: url("../../Img/mm3.jpg");
 grid-column: span 1;
-grid-row: span 4;
+grid-row: span 8;
 margin-left: 10%;
 background-position: left;
 }
@@ -37,7 +37,7 @@ font-size: 300%;
 background-repeat: repeat-y;
 background-image: url("../../Img/mm3.jpg");
 grid-column: span 1;
-grid-row: span 4;
+grid-row: span 8;
 margin-right: 10%;
 background-position: right;
 }
@@ -54,15 +54,15 @@ font-family: Brush Script Std, cursive;
 font-size: 30px;
 }
 
-/* .title{
+.title{
     background-color: white;
-    grid-column: 3;
+    grid-column: span 3;
     justify-content: center;
     align-items: center;
     display: flex;
     font-size: 230%;
     font-family: Brush Script Std, cursive;
-} */
+}
 
 .mickey{
 display: flex;
@@ -72,84 +72,10 @@ display: flex;
 display: flex;
 }
 
-.box1{
-background-image: url("../../Img/Tangled.jpg");
-grid-column: 2;
-grid-row: 4;
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-}
-
-.box1:hover{
-    transform: scale(1.2);
-}
-
-.box2{
-    background-image: url("../../Img/Snow-white.png");
-    grid-column: 3;
-    grid-row: 4;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.box2:hover{
-    transform: scale(1.2);
-}
-
-.box3{
-background-image: url("../../Img/Brave.jpg");
-grid-column: 4;
-grid-row: 4;
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-}
-
-.box3:hover{
-    transform: scale(1.2);
-}
-
-.box4{
-    background-image: url("../../Img/Mulan.jpg");
-    grid-column: 2;
-    grid-row: 5;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.box4:hover{
-    transform: scale(1.2);
-}
-
-.box5{
-    background-image: url("../../Img/Lejonkungen.jpg");
-    grid-column: 3;
-    grid-row: 5;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.box5:hover{
-    transform: scale(1.2);
-}
-
-.box6{
-    background-image: url("../../Img/Dumbo.jpg");
-    grid-column: 4;
-    grid-row: 5;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.box6:hover{
- transform: scale(1.2);
-}
-
-.box{
-
+.content{
+display: flex;
+background-color: red;
+height: 100%;
+display: inline-block;
+text-align: center;
 }
